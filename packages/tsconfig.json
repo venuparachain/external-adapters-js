@@ -514,6 +514,9 @@
       "path": "./sources/uniswap-v3"
     },
     {
+      "path": "./sources/universal_adapter"
+    },
+    {
       "path": "./sources/upvest"
     },
     {

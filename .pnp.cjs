@@ -717,6 +717,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:packages/sources/uniswap-v3"\
       },\
       {\
+        "name": "@chainlink/universal_adapter",\
+        "reference": "workspace:packages/sources/universal_adapter"\
+      },\
+      {\
         "name": "@chainlink/upvest-adapter",\
         "reference": "workspace:packages/sources/upvest"\
       },\
@@ -945,6 +949,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["@chainlink/unibit-adapter", ["workspace:packages/sources/unibit"]],\
       ["@chainlink/uniswap-v2-adapter", ["workspace:packages/sources/uniswap-v2"]],\
       ["@chainlink/uniswap-v3-adapter", ["workspace:packages/sources/uniswap-v3"]],\
+      ["@chainlink/universal_adapter", ["workspace:packages/sources/universal_adapter"]],\
       ["@chainlink/upvest-adapter", ["workspace:packages/sources/upvest"]],\
       ["@chainlink/uscpi-one-adapter", ["workspace:packages/sources/uscpi-one"]],\
       ["@chainlink/vesper-adapter", ["workspace:packages/composites/vesper"]],\
@@ -7644,6 +7649,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT"\
         }]\
       ]],\
+      ["@chainlink/universal_adapter", [\
+        ["workspace:packages/sources/universal_adapter", {\
+          "packageLocation": "./packages/sources/universal_adapter/",\
+          "packageDependencies": [\
+            ["@chainlink/universal_adapter", "workspace:packages/sources/universal_adapter"],\
+            ["@chainlink/ea-bootstrap", "workspace:packages/core/bootstrap"],\
+            ["@chainlink/ea-test-helpers", "workspace:packages/core/test-helpers"],\
+            ["@types/jest", "npm:27.5.2"],\
+            ["@types/node", "npm:16.11.51"],\
+            ["@types/supertest", "npm:2.0.12"],\
+            ["nock", "npm:13.2.9"],\
+            ["supertest", "npm:6.2.4"],\
+            ["tslib", "npm:2.4.0"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
+            ["vm2", "npm:3.9.11"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
       ["@chainlink/upvest-adapter", [\
         ["workspace:packages/sources/upvest", {\
           "packageLocation": "./packages/sources/upvest/",\
@@ -14085,6 +14109,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/acorn-npm-8.7.1-7c7a019990-aca0aabf98.zip/node_modules/acorn/",\
           "packageDependencies": [\
             ["acorn", "npm:8.7.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:8.8.0", {\
+          "packageLocation": "./.yarn/cache/acorn-npm-8.8.0-9ef399ab45-7270ca82b2.zip/node_modules/acorn/",\
+          "packageDependencies": [\
+            ["acorn", "npm:8.8.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -34095,6 +34126,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["assert-plus", "npm:1.0.0"],\
             ["core-util-is", "npm:1.0.2"],\
             ["extsprintf", "npm:1.4.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vm2", [\
+        ["npm:3.9.11", {\
+          "packageLocation": "./.yarn/cache/vm2-npm-3.9.11-c063b14f5f-aab39e6e4b.zip/node_modules/vm2/",\
+          "packageDependencies": [\
+            ["vm2", "npm:3.9.11"],\
+            ["acorn", "npm:8.8.0"],\
+            ["acorn-walk", "npm:8.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\

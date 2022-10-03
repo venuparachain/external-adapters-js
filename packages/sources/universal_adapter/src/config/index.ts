@@ -1,7 +1,7 @@
 import { Requester } from '@chainlink/ea-bootstrap'
 import { Config } from '@chainlink/ea-bootstrap'
 
-export const NAME = 'UNIVERSAL'
+export const NAME = 'UNIVERSAL_ADAPTER'
 
 export const DEFAULT_ENDPOINT = 'executejs'
 

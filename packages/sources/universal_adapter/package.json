@@ -1,6 +1,6 @@
 {
   "name": "@chainlink/universal_adapter",
-  "version": "1.9.7",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

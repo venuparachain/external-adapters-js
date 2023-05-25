@@ -1,5 +1,11 @@
 # @chainlink/coingecko-adapter
 
+## 2.0.4
+
+### Patch Changes
+
+- e3378fc11: test
+
 ## 2.0.3
 
 ### Patch Changes

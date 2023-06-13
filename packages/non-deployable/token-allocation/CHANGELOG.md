@@ -1,5 +1,13 @@
 # @chainlink/token-allocation-adapter
 
+## 1.11.2
+
+### Patch Changes
+
+- Updated dependencies [f2d2ae675]
+  - @chainlink/coinmarketcap-adapter@2.0.8
+  - @chainlink/tiingo-adapter@2.1.2
+
 ## 1.11.1
 
 ### Patch Changes

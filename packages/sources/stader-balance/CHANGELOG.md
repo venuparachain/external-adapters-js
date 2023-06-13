@@ -1,5 +1,11 @@
 # @chainlink/stader-balance-adapter
 
+## 1.3.2
+
+### Patch Changes
+
+- f2d2ae675: Replace internal util functions with ea-framework util functions
+
 ## 1.3.1
 
 ### Patch Changes

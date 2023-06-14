@@ -1,5 +1,12 @@
 # @chainlink/polkadot-balance-adapter
 
+## 1.1.12
+
+### Patch Changes
+
+- f2d2ae675: Replace internal util functions with ea-framework util functions
+- 862ed8d89: Removed unused dependencies
+
 ## 1.1.11
 
 ### Patch Changes

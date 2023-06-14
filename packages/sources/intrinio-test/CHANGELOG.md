@@ -1,5 +1,11 @@
 # @chainlink/intrinio-test-adapter
 
+## 1.3.4
+
+### Patch Changes
+
+- 862ed8d89: Removed unused dependencies
+
 ## 1.3.3
 
 ### Patch Changes

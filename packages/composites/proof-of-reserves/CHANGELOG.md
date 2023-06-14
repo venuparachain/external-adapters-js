@@ -1,5 +1,20 @@
 # @chainlink/proof-of-reserves-adapter
 
+## 1.18.2
+
+### Patch Changes
+
+- Updated dependencies [f2d2ae675]
+- Updated dependencies [862ed8d89]
+- Updated dependencies [adc0a8297]
+  - @chainlink/polkadot-balance-adapter@1.1.12
+  - @chainlink/stader-balance-adapter@1.3.2
+  - @chainlink/stader-address-list-adapter@2.3.2
+  - @chainlink/moonbeam-address-list-adapter@1.1.12
+  - @chainlink/por-indexer-adapter@1.2.58
+  - @chainlink/renvm-address-set-adapter@1.5.49
+  - @chainlink/wbtc-address-set-adapter@1.4.58
+
 ## 1.18.1
 
 ### Patch Changes
